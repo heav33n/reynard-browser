@@ -8,6 +8,8 @@ Unlike other browsers on iOS that are forced to use Apple's **WebKit** engine (i
 
 This project is mainly for users on older iOS versions who are stuck with an outdated version of WebKit. Because WebKit is bundled with the OS, these devices cannot receive engine updates and often fail to load modern websites. By using Gecko, which is kept up to date independently, Reynard allows these sites to work again. Users on newer iOS versions can also use the browser if they want an alternative to WebKit, including Firefox add-ons and other Gecko-exclusive features.
 
+Reynard accepts add-ons installed from local `.xpi` files, including add-ons that have not been signed by addons.mozilla.org. Only install add-ons from sources you trust; unsigned add-ons do not receive Mozilla’s signature verification.
+
 ## Installation
 
 The latest builds are available for download on the [Releases](https://github.com/minh-ton/reynard-browser/releases) page. Please note that this project is still in an early experimental state, so expect bugs and missing features.

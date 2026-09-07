@@ -99,8 +99,10 @@ index e835b1c33d86..4b28818cba05 100644
 +
 +pref("widget.non-native-theme.use-theme-accent", false);
 +
-+// Require extensions to be signed (bug 1244329)
-+pref("xpinstall.signatures.required", true);
++// Allow locally installed/unverified extensions. Reynard exposes add-on
++// installation directly, so users may install extensions that are not signed
++// by addons.mozilla.org. Blocklisting and compatibility checks still apply.
++pref("xpinstall.signatures.required", false);
 +
 +pref("xpinstall.whitelist.add", "https://addons.mozilla.org");
 +pref("xpinstall.whitelist.fileRequest", false);
