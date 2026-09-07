@@ -28,7 +28,7 @@ permissions:
 
 jobs:
   prepare:
-    if: ${{ github.repository_owner == 'minh-ton' && (github.event_name != 'push' || startsWith(github.event.head_commit.message, 'Bump version to ')) }}
+    if: ${{ github.repository_owner == 'heav33n' && (github.event_name != 'push' || startsWith(github.event.head_commit.message, 'Bump version to ')) }}
     name: Select build variants
     runs-on: ubuntu-latest
     outputs:
