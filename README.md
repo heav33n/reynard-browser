@@ -168,6 +168,6 @@ If you’ve come across this repository and find it interesting, I’d love to g
 - [Amethyst-iOS](https://github.com/AngelAuraMC/Amethyst-iOS), [dolphin-ios](https://github.com/OatmealDome/dolphin-ios), [DukeX](https://github.com/MaftyManicEMU/DukeX), and [MeloNX](https://git.ryujinx.app/projects/MeloNX): Various utility functions, numerous private API usage, and JIT memory handling.
 - [Pre-existing work](https://bugzilla.mozilla.org/show_bug.cgi?id=1882872) on bringing Gecko to iOS using BrowserEngineKit: most of the difficult engine integration. 
 
-## License
+## License.
 
 This project is licensed under the [GNU General Public License v3.0](https://github.com/minh-ton/reynard-browser/blob/main/LICENSE), except for the `patches` directory containing the modifications to the Firefox Gecko engine and therefore is licensed under the [Mozilla Public License 2.0](https://github.com/minh-ton/reynard-browser/blob/main/LICENSE.firefox).
