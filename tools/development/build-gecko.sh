@@ -48,6 +48,8 @@ fi
 	echo "ac_add_options --enable-webrtc"
 	echo "ac_add_options --enable-optimize"
 	echo "ac_add_options --enable-release"
+	# Release Gecko otherwise ignores xpinstall.signatures.required=false.
+	echo "ac_add_options MOZ_REQUIRE_SIGNING=0"
 	echo "ac_add_options --enable-rust-simd"
 	echo "ac_add_options --enable-lto"
 	echo "ac_add_options --disable-debug"
